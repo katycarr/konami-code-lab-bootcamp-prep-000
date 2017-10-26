@@ -11,7 +11,7 @@ function init() {
     //add new key value to array
     let key = parseInt(e.which || e.detail);
     entered.push(key);
-    
+
     if(entered.length>10) {
       entered.shift();
     }
